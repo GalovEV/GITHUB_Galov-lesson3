@@ -1,0 +1,25 @@
+{
+  "name": "node_lesson3_1-galov",
+  "version": "1.0.0",
+  "description": "последние новости в структурированном виде",
+  "main": "game.js",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "minimist": "^1.2.0",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GalovEV/GITHUB_Galov-lesson3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GalovEV/GITHUB_Galov-lesson3/issues"
+  },
+  "homepage": "https://github.com/GalovEV/GITHUB_Galov-lesson3#readme"
+}

@@ -14,7 +14,7 @@ else{
 
 request({
   method: 'get',
-  uri: 'https://translate.yandex.net/api/v1.5/tr.json/translate?key='+appId+'&lang='+lang+'&text='+text,
+  uri: 'https://translate.yandex.net/api/v1.5/tr.json/translate?key='+appId+'&lang='+lang+'&text='+encodeURIComponent(text),
 setEncoding:"utf8"
 }, function (error, response, body) {
 //  console.log(response);
